@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 header{
@@ -13,7 +14,6 @@ header{
 
     background-position: top 52% left 24% ;
     background-size: 200%;
-    position:absolute;
 
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@ header{
     text-decoration: none;
     color: white;
     margin-right: 10px;
-    padding: 20px 40px;
+    padding: 15px 40px;
 }
 
 .login a.active{
@@ -72,8 +72,93 @@ header{
 
 
 .login a:hover{
-    padding: 20px 40px;
+    padding: 15px 40px;
     background-color: #ff7b86;
     border-radius: 50px;
     color: white;
+}
+
+.text{
+    text-align: center;
+    margin-top: 100px;
+}
+.text h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+
+.text p{
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.text .button{
+    margin-top: 80px;
+}
+
+.text .button a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.text .button a:hover{
+    color: #fe6963;
+    background-color: white;
+}
+
+/*== Section ==*/
+section{
+    height: 1000px;
+    background-image: url(/assets/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center left 163%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section .container{
+    width: 1120px;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 42px;
+    font-weight: 500;
+    color: #1e4157;
+    margin-top: -200px;
+}
+
+section .container_text{
+    text-align: justify;
+    color: #1e4157;
+    max-width: 540px;
+    margin-top: 100px;
+}
+
+section .container_text h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+section .container_text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
 }
