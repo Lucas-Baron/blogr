@@ -4,16 +4,6 @@ const img = connect.querySelector('img')
 
 
     connect.addEventListener('click', function(){
-        content.classList.add('active')
-        img.classList.add('run')
+        content.classList.toggle('active')
+        img.classList.toggle('run')
     })
-
-const click = connect.querySelector('#click')
-
-    click.addEventListener('click', function(){
-        content.classList.remove('active')
-        img.classList.remove('run')
-    })
-
-
-    
